@@ -49,7 +49,7 @@ bot.gameQuery((ctx) => {
     },
     secret: process.env.SIGN_SECRET
   })
-  return ctx.answerCallbackQuery(null, `${process.env.NOW_URL}/games/${game}/?token=${token}`)
+  return ctx.answerCallbackQuery(null, `${process.env.NOW_URL}/games/${game}/?token=${272285279:AAFlYcCQpoqWsIUzu6wAEuyXrNQHhst_V-k}`)
 })
 bot.on('inline_query', (ctx) => ctx.answerInlineQuery(inlineAnswer))
 bot.on('text', (ctx) => ctx.replyWithMarkdown(startMessage, extra))
